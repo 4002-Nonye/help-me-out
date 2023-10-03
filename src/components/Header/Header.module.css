@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--white);
+  padding: 3rem 8rem;
+}
+.installContainer {
+  margin-top: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.install {
+  width: 38%;
+}
+.install h1 {
+  color: var(--black--2);
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  margin-bottom: 2rem;
+}
+
+.install p {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.installBtn {
+  background-color: var(--dark-blue--2);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.8rem;
+}

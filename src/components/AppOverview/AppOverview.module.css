@@ -1,0 +1,59 @@
+.appOverview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7rem;
+  background-color: var(--white);
+  padding: 10rem;
+}
+
+.appOverview h2 {
+  color: var(--black--2);
+  font-family: 'Sora', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.cardContent h3 {
+  color: var(--dark-blue--3);
+  font-family: 'Inter', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.cardContent p {
+  color: var(--color-grey);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  padding: 2rem 0;
+ 
+}
+.work > div {
+  display: flex;
+  text-align: center;
+ 
+  gap: 5rem;
+  margin-top: 4rem;
+}
+
+.number {
+  background-color: var(--dark-blue--2);
+  color: var(--white);
+  width: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.2rem;
+  height: 5rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  border-radius: 50%;
+  
+  margin:  2rem auto;
+}
+

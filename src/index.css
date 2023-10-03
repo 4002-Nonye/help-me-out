@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --dark-blue: #100a42;
+  --dark-blue--2: #120b48;
+  --dark-blue--3:#1B233D;
+  --white: #ffffff;
+  --black: #000;
+  --bg-color: #f4f6f8;
+  --black--2: #141414;
+  --color-grey: #616163;
+  --ff-inter: 'Inter', sans-serif;
+  --ff-sora: 'Sora', sans-serif;
+  --ff-work: 'Work Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  /* font-family: 'Inter', sans-serif;
+font-family: 'Sora', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+  background-color: var(--bg-color);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+
+}
+
+ul li{
+  list-style: none;
+}

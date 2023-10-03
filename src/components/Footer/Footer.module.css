@@ -1,0 +1,35 @@
+.footer{
+    background-color: var(--dark-blue--2);
+   padding: 10rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .logo span {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .ul li a{
+    color: var(--white);
+    font-size: 1.6rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+  }
+  .ul li:first-child a{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    
+  }
+
+  .ul li{
+    padding: 1rem 0;
+  }

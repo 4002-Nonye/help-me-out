@@ -1,0 +1,40 @@
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+    background-color: var(--white);
+  
+  border-bottom: 2px solid var(--bg-color);
+  align-items: center;
+  margin: auto;
+  padding: 3rem 8rem;
+  
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.logo span {
+  color: var(--dark-blue);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.link {
+  display: inline-flex;
+  gap: 5rem;
+}
+.link a:link,
+.link a:visited {
+  color: var(--black);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.start {
+  color: var(--dark-blue--2);
+  font-size: 1.8rem;
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+}
